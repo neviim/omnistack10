@@ -30,7 +30,12 @@
             $ yarn -v
             1.21.1
 
+        ## git
+            $ git config --global --list
+            $ git config --global --edit
 
+            $ git config --global user.email "neviimdev@gmail.com"
+            $ git config --global user.name "Neviim"
 
 
 
