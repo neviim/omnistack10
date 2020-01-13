@@ -16,7 +16,7 @@
         v12.14.1
 
         ## gerenciador de pacotes:
-            # npm
+            # npm 
             $ npm -v
             6.13.6
 
@@ -36,6 +36,12 @@
 
             $ git config --global user.email "neviimdev@gmail.com"
             $ git config --global user.name "Neviim"
+
+            # Usando git
+                $ git add *
+                $ git status
+                $ git commit -m "Inicio codigo"
+                $ git push
 
 
 
