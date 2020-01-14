@@ -43,5 +43,58 @@
                 $ git commit -m "Inicio codigo"
                 $ git push
 
+        ## Goggle Chrome extensões
+            JSON Viewer
 
+        ## Ferramentas utilisadas
+            - Insomnia.rest
+                # Add to sources
+                $ echo "deb https://dl.bintray.com/getinsomnia/Insomnia /" \
+                    | sudo tee -a /etc/apt/sources.list.d/insomnia.list
+
+                # Add public key used to verify code signature
+                $ wget --quiet -O - https://insomnia.rest/keys/debian-public.key.asc \
+                    | sudo apt-key add -
+
+                # Refresh repository sources and install Insomnia
+                $ sudo apt-get update
+                $ sudo apt-get install insomnia
+
+        ## Banco de dados
+            - MongoDB Atlas (em nuvel e free)
+              https://www.mongodb.com/cloud/atlas
+              User: j...
+              Pass: a...0
+              Billing Cupon: ROCKETSEAT2020
+
+              Banco: n...m
+              Pass.: a...0 
+              # Connection String Only - temporaria dev curso
+              mongodb+srv://neviim:<password>@cluster0-sdrve.gcp.mongodb.net/test?retryWrites=true&w=majority
+
+
+
+        ## Bibliotecas
+                $ yarn add express
+                $ yarn add mongoose
+                $ yarn add nodemon -D    # -D dependencia de desenvolvimento.
+                
+
+
+# Backend
+
+    $ mkdir backend
+    $ cd backend
+    $ yarn init -y
+
+    # apos instalar o "nodemon" pode utilizar desta forma
+    $ yarn nodemon index.js
+
+        # Automatizando este comando em "packege.json"
+        "scripts": {
+            "dev": "nodemon index.js"
+        },
+
+
+    
 
