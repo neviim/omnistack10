@@ -63,7 +63,7 @@
         ## Banco de dados
             - MongoDB Atlas (em nuvel e free)
               https://www.mongodb.com/cloud/atlas
-              User: j...
+              User: j...@fcn...
               Pass: a...0
               Billing Cupon: ROCKETSEAT2020
 
@@ -71,17 +71,24 @@
               Pass.: a...0 
               # Connection String Only - temporaria dev curso
               mongodb+srv://neviim:<password>@cluster0-sdrve.gcp.mongodb.net/test?retryWrites=true&w=majority
+              User:  omni10
+              Pass:  omni10
+              Banco: omni10
 
+              # Testa se tem proxy na rede
+              http://portquiz.net:27017
 
 
         ## Bibliotecas
                 $ yarn add express
                 $ yarn add mongoose
+                $ yarn add axios
+
                 $ yarn add nodemon -D    # -D dependencia de desenvolvimento.
                 
 
 
-# Backend
+## Backend
 
     $ mkdir backend
     $ cd backend
@@ -97,4 +104,18 @@
 
 
     
+## Referencias
+    // Método HTTP: GET, POST, PUT, DELETE
 
+    // Tipos de parámetros:
+
+        // Query Params: request.query (Utilizados para: Filtros, Ordenação, Paginação, ...)
+        // Route Params: request.params (Identifica um recurso na alteração ou remoção)
+        // Body: request.body (Dados para criação ou alteração de um registro)
+
+    // MongoDB (Não-relacional)
+
+
+
+## Esto no momento
+https://youtu.be/tqdw5KVx4ps?t=3640
